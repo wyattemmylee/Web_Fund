@@ -1,0 +1,31 @@
+body {
+    margin: 80px;
+}
+.search {
+    height: 35px;
+    width: 160px;
+    border-radius: 20px;
+    background-color:whitesmoke;
+    border-color: rgb(22, 196, 181);
+    color: rgb(22, 196, 181);
+    font-size: 15px;
+}
+.plus {
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(95, 238, 190);
+    font-size: 32px;
+    color: whitesmoke;
+}
+.create-acc {
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    background-color:rgb(13, 117, 214);
+    box-shadow: 3px 3px black;
+    color: whitesmoke;
+    font-size: 18px;
+}
