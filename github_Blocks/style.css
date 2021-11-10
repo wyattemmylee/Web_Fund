@@ -1,0 +1,33 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: cadetblue;
+}
+
+.row1,.row2,.row3 {
+    display: flex;
+    margin: 16px 0;
+    padding: 16px;
+}
+.row1 {
+    justify-content: space-between;
+    background-color: coral;  
+}
+.row2 {
+    justify-content: space-evenly;
+    background-color: seagreen;
+}
+.row3 {
+    justify-content: space-between;
+    background-color: slateblue;
+}
+h1 {
+    margin: 0 20px 20px;
+    color: teal;
+    text-align: center;
+}
+img {
+    height: 150px;
+    width: 150px;
+}
