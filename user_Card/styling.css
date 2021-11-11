@@ -1,0 +1,148 @@
+
+body {
+    display: flex;
+}
+* body {
+    background-color: rgb(20,20,20);
+    color: whitesmoke;
+    font-family: Roboto;
+    padding: 20px 80px 0;
+}
+.left-nav{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+    height: 720px;
+    width: 260px;
+    background-color: rgb(37, 36, 36);
+    border-radius: 10px;
+}
+.left-nav > * {
+    margin: 10px;
+}
+.nav-title {
+    overflow-wrap: normal;
+    text-decoration: bold;
+    margin: 0px;
+}
+.nav-arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-arrow h2 {
+    color: cornflowerblue;
+    margin-top: 30px;
+}
+
+.nav-arrow img{
+    width: 17px;
+    height: 17px;
+    margin-right: 7px;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.selectors, .box-model, .display-prop, .position-tab, .css-extras {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    width:65px;
+    height: 25px;
+    margin-top: 20px;
+    background-color:rgb(70, 75, 75) ;
+    border-radius: 5px;
+}
+.perc-box > h4 {
+    position: absolute;
+    color: rgb(106, 145, 218);
+    margin-top: -22px;
+    margin-left:14px;
+}
+
+
+.main {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px 100px;
+    height: 800px;
+    width: 850px;
+    background-color: rgb(37, 36, 36);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    margin-top: 20px;
+}
+.line{
+    color: rgb(37, 36, 36);
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    margin-top: -30px;
+}
+.sub-title {
+    margin-top: -30px;
+}
+.uc-layout {
+    display: flex;
+    background-color: white;
+    width: 796px;
+    height: 700px;
+    flex-flow: column wrap;
+    align-items: center;
+} 
+.uc-container {
+    display:flex;
+    flex-flow: column wrap;
+    border-style: solid;
+    border-color: crimson;
+    border-width: 4px;
+    width: 500px;
+    height: 250px;
+    margin-top: 40px;
+}
+.uc-top {
+    background-color: darkcyan;
+    flex: 1;
+}
+
+.uc-bottom {
+    display: flex;
+    flex-flow: column;
+    flex: 3;
+    color: black;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.edit-profile {
+    display: flex;
+}
+.uc-bottom > *{
+    margin: 0 0 0 20px;
+
+}
+.location {
+    display: flex;
+    align-content: center;
+}
+.location *{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+}
+.profile-pic{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+}
