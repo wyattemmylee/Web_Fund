@@ -21,3 +21,13 @@
     position: relative;
 
 }
+/* navigation bar */
+.nav-links {
+    align-items: center;
+    width: 500px;    
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 12px;
+}
